@@ -10,7 +10,6 @@ async function startProcess() {
         return;
     }
 
-    // Implementing the logic to process CRM
     if (crm.includes("https://")) {
         crm = crm.split("https://")[1];
         if (crm.includes("/")) {
@@ -34,8 +33,6 @@ async function startProcess() {
 
     reader.readAsText(file);
 }
-
-// Your JavaScript classes and functions here
 
 class Advertiser {
     constructor({
